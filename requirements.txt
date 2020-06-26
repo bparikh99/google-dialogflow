@@ -1,5 +1,5 @@
 certifi==2020.4.5.1
-chardet==3.0.4py
+chardet==3.0.4
 Click==7.1.2
 Flask==1.1.2
 Flask-Cors==3.0.8
