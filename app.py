@@ -42,7 +42,7 @@ def processRequest(req):
     celsius_result=w.get_temperature('celsius')
     celsius_result=str(celsius_result['temp'])
 
-    speech="Todays Weather in "+ city +":\n"+ "Humidity" + humidity + "wind Speed is ::" + wind_speed + "Temprature::"+celsius_result
+    speech="Todays Weather in "+ city +"\n"+"Temprature "+celsius_result + "\n"+"Humidity " + humidity +"\n"+ "wind Speed is" + wind_speed 
 
     return {
          "fulfillmentText":speech,
